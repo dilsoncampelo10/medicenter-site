@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 130px;
+    justify-content: center;
+}
+.container{
+    width: 992px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo, .menu{
+    align-self: center;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav a{
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a388b8;
+    font-size: .9rem;
+}
+nav .active, nav a:hover{
+    background-color: #42b3e5;
+    color: white;
+}
+/*Section 1*/
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/mulher.jpg");
+    height: 670px;
+    background-size: cover;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.banner_text{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.384);
+    width: 290px;
+    font-weight: bold;
+}
+.banner_text h1{
+    font-size: 50px;
+}
+.banner_text p{
+    font-size: 19px;
+}
+.banner_box{
+    height: 210px;
+    display: flex;
+}
+.banner1{
+    background-color: #42b3e5;
+    flex: 1;
+    padding: 10px;
+    
+}
+.banner2{
+    flex: 1;
+    background-color: #0384ce;
+    padding: 10px;
+}
+.banner3{
+    background-color: #3156a3;
+    padding: 10px;
+    flex: 1;
+}
+.banner_box a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+#meio{
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+#meio section{
+    flex: 2;
+}
+#meio aside{
+    flex:1;
+}
+.widget_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.traco{
+    width: 51px;
+    height: 2px;
+    background-color: #0384ce;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+#box div{
+    background-color: #42b3e5;
+    height: 150px;
+    width: 150px;
+    margin: 10px 5px;
+}
+.calendario{
+    display: flex;
+}
+.data{
+    background-color: #3156a3;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    margin-right: 3px;
+    margin-bottom: 30px;
+}
+.hora{
+    background-color: #0384ce;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    margin-right: 3px;
+    margin-bottom: 30px;
+}
+.widget-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dr{
+    margin-right: 30px;
+    width: 300px;
+}
+.dr article h1{
+    font-size: 25px;
+}
+.dr article p{
+    font-size: 14px;
+}
