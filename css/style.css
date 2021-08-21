@@ -150,3 +150,46 @@ nav .active, nav a:hover{
 .dr article p{
     font-size: 14px;
 }
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.agrup_caixas{
+    display: flex;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.fm_1 h1, .fm_2 h1, .fm_3 h1{
+    font-weight: normal;
+}
+.fm_1{
+    background-color: #42b3e5;
+}
+.fm_2{
+    background-color: #0384ce;
+}
+.fm_3{
+    background-color: #3156a3;
+}
+.footer_outras{
+    display: flex;
+}
+.info_mais{
+    flex: 1;
+}
+footer .widget_title h1{
+    font-size: 1.3rem;
+}
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-size: 12px;
+}
